@@ -279,7 +279,7 @@ section.cs-page li {
 
 section.cs-page section.prototype img {
 	height:auto;
-	max-width:200px;
+	max-width:450px;
 	margin:0 auto;
 }
 
@@ -628,4 +628,10 @@ form input, form textarea {
 		color:grey;
 		font-size: .75rem;
 	}	
+
+	section.cs-page section.prototype img {
+		height:auto;
+		max-width:275px;
+		margin:0 auto;
+	}
 }
