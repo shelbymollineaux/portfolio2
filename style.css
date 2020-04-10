@@ -550,7 +550,10 @@ form input, form textarea {
 		background-color: black;
 	}
 
-	section.cs-page section p, li, h1, h2, h3, h4, h5, h6 {
+	section.cs-page section p, section.cs-page section li, 
+	section.cs-page section h1, section.cs-page section h2,
+	section.cs-page section h3, section.cs-page section h4,
+	section.cs-page section h5, section.cs-page section h6 {
 		text-align: left;
 	}
 
