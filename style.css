@@ -269,6 +269,14 @@ section.cs-page h3 {
 	margin-top:1rem;
 }
 
+section.cs-page section.first {
+	margin-top: 0;
+}
+
+section.cs-page h3 {
+	margin-top: 0;
+}
+
 section.cs-page li {
 	font-size:1.4rem;
 	font-weight:300;
@@ -279,13 +287,14 @@ section.cs-page li {
 
 section.cs-page section.prototype img {
 	height:auto;
-	max-width:450px;
+	max-width: 380px;
 	margin:0 auto;
 }
 
-section.cs-page section.prototype a {
-	margin-top: 0;
-	margin-bottom: 1rem;
+section.cs-page section.prototype figure {
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 section.cs-page section {
