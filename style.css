@@ -40,7 +40,7 @@ figure {
 	align-items:center;
 	display:flex;
 	flex-direction:column;
-	margin:2rem 1rem;
+	margin:2rem 1rem 0 1rem;;
 }
 
 figcaption {
@@ -106,6 +106,10 @@ ul.links li {
 	padding:1em 1.5em;
 }
 
+section.cs-page .button {
+	margin-top: 2rem;
+}
+
 h5 {
 	margin-top:1rem;
 	font-weight: 500;
@@ -117,8 +121,9 @@ nav section.container {
 	color:#FFF;
 	display:flex;
 	justify-content:space-between;
-	padding-bottom:0;
 	flex-wrap: wrap;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 nav img {
@@ -201,7 +206,7 @@ section.case-study h3 {
 }
 
 section.case-study h4 {
-	font-size:1.8rem;
+	font-size:1.5rem;
 	line-height: 1.25
 }
 
@@ -222,7 +227,7 @@ section.case-study section {
 	flex-wrap: wrap;
 }
 
-section.title {
+#top{
 	margin-top:0;
 }
 
@@ -233,8 +238,16 @@ section.title h1 {
 }
 
 /* Project Page */
+
+section.container.cs-page .cta {
+	margin-top: 1rem;
+	margin-bottom:0;
+	width: 250px;
+}
+
 section.container.cs-page {
 	max-width: 960px;
+	padding-bottom: 3rem;
 }
 
 section.prototype a.header {
@@ -259,13 +272,14 @@ section.container.cs-page h3 {
 section.cs-page section.title h2 {
 	font-size:2rem;
 	font-weight:300;
+	line-height: 2.5rem;
 }
 
 section.cs-page h3 {
 	border-bottom:2px solid #000;
 	font-size:2.5rem;
 	font-weight:600;
-	margin-bottom:1rem;
+	margin-bottom:1.25rem;
 	margin-top:1rem;
 }
 
@@ -279,10 +293,11 @@ section.cs-page h3 {
 
 section.cs-page li {
 	font-size:1.4rem;
+	line-height: 2rem;
 	font-weight:300;
 	list-style-type:square;
 	margin-left:3rem;
-	margin-top:.25rem;
+	margin-top:.75rem;
 }
 
 section.cs-page section.prototype img {
@@ -298,7 +313,7 @@ section.cs-page section.prototype figure {
 }
 
 section.cs-page section {
-	margin-top:2rem;
+	margin-top: 4rem;
 }
 
 section.cs-page ul {
@@ -307,6 +322,7 @@ section.cs-page ul {
 
 section.cs-page p {
 	margin-top:.25rem;
+	line-height: 2.5rem;
 }
 
 section.research span {
@@ -341,10 +357,11 @@ section.main,section.bg {
 	background-color:#F2EFF4;
 }
 
-section.case-study .aside-cs,section.prototype {
+section.case-study .aside-cs,section.cs-page section.prototype {
 	align-items:center;
 	display:flex;
 	flex-direction:column;
+	margin-top: 2rem;
 }
 
 div.competition img {
@@ -364,7 +381,7 @@ section.container.about {
 
 section.container.about p {
 	font-size: 1.125rem;
-	line-height: 1.75rem;
+	line-height: 2rem;
 }
 
 section.container.about img {
@@ -557,13 +574,18 @@ form input, form textarea {
 		text-align: left;
 	}
 
+	section.container.cs-page h5 {
+		margin-top: 2rem;
+	}
+
+
 	section.cs-page section p {
 		font-size: 1.15rem;
-		line-height: 1.4rem;
 	}
 	section.cs-page section li {
 		font-size: 1.15rem;
-		line-height: 1.4rem;
+		line-height: 1.75rem;
+		margin-top: .5rem;
 	}
 	section.cs-page section span {
 		font-size: 1.25rem;
@@ -646,4 +668,18 @@ form input, form textarea {
 		max-width:275px;
 		margin:0 auto;
 	}
+
+	section.cs-page section {
+		margin-top: 2rem;
+	}
+
+	
+}
+
+section.cs-page section h5 {
+	margin-top: 2rem;
+}
+
+.fa-arrow-circle-up:before {
+	font-size: 1.75rem;
 }
