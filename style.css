@@ -1,4 +1,8 @@
 /* General Design */
+html {
+	scroll-behavior: smooth;
+}
+
 body,p {
 	font-family: "libre-franklin", sans-serif;
 	font-size: 16px;
@@ -94,7 +98,7 @@ ul.links li {
 }
 
 .button {
-	background-color:#000;
+	background-color:#01394d;
 	border-radius:3px;
 	color:#FFF;
 	margin-top:.5rem;
@@ -240,8 +244,8 @@ section.title h1 {
 /* Project Page */
 
 section.container.cs-page .cta {
-	margin-top: 1rem;
-	margin-bottom:0;
+	margin-top: 2rem;
+	margin-bottom:0rem;
 	width: 250px;
 }
 
@@ -276,7 +280,6 @@ section.cs-page section.title h2 {
 }
 
 section.cs-page h3 {
-	border-bottom:2px solid #000;
 	font-size:2.5rem;
 	font-weight:600;
 	margin-bottom:1.25rem;
@@ -293,7 +296,7 @@ section.cs-page h3 {
 
 section.cs-page li {
 	font-size:1.4rem;
-	line-height: 2rem;
+	line-height:2rem;
 	font-weight:300;
 	list-style-type:square;
 	margin-left:3rem;
@@ -313,7 +316,7 @@ section.cs-page section.prototype figure {
 }
 
 section.cs-page section {
-	margin-top: 4rem;
+	margin-top: 5rem;
 }
 
 section.cs-page ul {
@@ -322,7 +325,7 @@ section.cs-page ul {
 
 section.cs-page p {
 	margin-top:.25rem;
-	line-height: 2.5rem;
+	line-height: 2rem;
 }
 
 section.research span {
@@ -377,6 +380,7 @@ div.competition img {
 /* About page */
 section.container.about {
 	display: block;
+	padding-bottom: 4rem;
 }
 
 section.container.about p {
@@ -484,6 +488,10 @@ form input, form textarea {
 	border: 1px solid black;
 }
 
+form textarea { 
+	height: 100px;
+}
+
 /* Responsive Design */
 @media (max-width: 1212px) {
 	nav {
@@ -543,6 +551,14 @@ form input, form textarea {
 	section.case-study {
 		text-align: center;
 	}
+
+	p, h1, h2, h3, h4, h5, h6 {
+		text-align: left;
+	}
+
+	section.case-study .aside-cs {
+		margin-top: 0;
+	}
 }
 
 @media (max-width: 601px) {
@@ -554,6 +570,10 @@ form input, form textarea {
 	section.container.container {
 		padding: 1rem;
 		text-align: center;
+	}
+
+	section.container.about {
+		padding-bottom: 4rem;
 	}
 
 	section.intro-image figure {
@@ -584,7 +604,6 @@ form input, form textarea {
 	}
 	section.cs-page section li {
 		font-size: 1.15rem;
-		line-height: 1.75rem;
 		margin-top: .5rem;
 	}
 	section.cs-page section span {
@@ -607,6 +626,14 @@ form input, form textarea {
 		margin: 0 0.5rem;
 	}
 
+	p, h1, h2, h3, h4, h5, h6 {
+		text-align: left;
+	}
+
+	section.case-study .aside-cs {
+		margin-top: 0;
+	}
+
 	nav ul.links {
 		display: flex;
 	}
@@ -627,12 +654,11 @@ form input, form textarea {
 	footer section.links {
 		margin-top: .25rem;
 		display: flex;
-	    flex-direction: column;
 		align-items: center;
 	}
 
 	section.links a {
-		margin: .25rem;;
+		margin: .5rem 1.5rem;
 	}
 
 	footer p {
@@ -670,7 +696,11 @@ form input, form textarea {
 	}
 
 	section.cs-page section {
-		margin-top: 2rem;
+		margin-top: 5rem;
+	}
+
+	section.container.cs-page {
+		padding-bottom: 2rem;
 	}
 
 	
