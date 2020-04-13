@@ -286,10 +286,6 @@ section.cs-page h3 {
 	margin-top:1rem;
 }
 
-section.cs-page section.first {
-	margin-top: 0;
-}
-
 section.cs-page h3 {
 	margin-top: 0;
 }
@@ -488,7 +484,7 @@ form input, form textarea {
 	border: 1px solid black;
 }
 
-form textarea { 
+form textarea {
 	height: 100px;
 }
 
