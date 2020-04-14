@@ -3,6 +3,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+.mobilePic {
+	display: none;
+}
+
 body,p, h1, h2, h3, h4, h5, h6, li {
 	font-family: "libre-franklin", sans-serif;
 	font-size: 16px;
@@ -699,6 +703,14 @@ form textarea {
 		padding-bottom: 2rem;
 	}
 
+	.mobilePic {
+		display: block;
+		max-width: 250px;
+	}
+
+	.showPic {
+		display: none;
+	}
 
 }
 
